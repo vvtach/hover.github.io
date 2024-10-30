@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: black;
+  font-family: "Courier New", Courier, monospace;
+}
+
+header {
+  margin: 20% auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link a {
+  padding: 1rem 3rem;
+  background-color: red;
+  color: white;
+  transition: 0.2s ease;
+}
+
+.link a:hover {
+  background-color: white;
+  color: red;
+}
